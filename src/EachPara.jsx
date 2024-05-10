@@ -1,5 +1,8 @@
+
 const EachPara = () => {
-  return <div>EachPara</div>;
+  return <div>
+    
+  </div>;
 };
 
 export default EachPara;

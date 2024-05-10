@@ -26,8 +26,8 @@ function App() {
   };
   return (
     <>
-      <section className=" h-screen flex items-center justify-center">
-        <div className="max-w-3xl mx-auto p-10  rounded-lg shadow-lg bg-neutral-700">
+      <section className=" h flex items-center justify-center">
+        <div className="max-w-3xl h-full mx-auto p-10  rounded-lg shadow-lg bg-neutral-700">
           <h1 className="text-3xl font-bold mb-6">
             TIRED OF BORING LOREM IPSUM?
           </h1>
@@ -49,9 +49,9 @@ function App() {
           <div>
             <ul>
               {val.map((e, index) => (
-                <li key={index} className="mb-2">
-                  <span className="font-bold">{index + 1}</span>
-                  <span className="ml-2 text-start">{e}</span>
+                <li key={index} className="mb-2 flex">
+                  <span className="font-bold">{index + 1}.</span>
+                  <span className="ml-2 w-full text-start flex">{e}</span>
                 </li>
               ))}
             </ul>
